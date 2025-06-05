@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Ringkasan Saldo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2em;
+      background: #f8f9fa;
+      color: #222;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 2em;
+      color: #2d5a90;
+    }
+    .iframe-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    iframe {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      background: #fff;
+    }
+    @media (max-width: 900px) {
+      iframe {
+        width: 100%;
+        min-width: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Ringkasan Saldo</h1>
+  <div class="iframe-container">
+    <iframe
+      src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRQBSWp7dBKus6wO8G-vBtSW9ZpKlRbmNLbXsaWQZeaQU_ZEY9p9EujIGTyIPVzb5cgVTlq9d0Lf29P/pubhtml?gid=1670958521&single=true&range=A1:G8"
+      width="800"
+      height="250"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </div>
+</body>
+</html>
