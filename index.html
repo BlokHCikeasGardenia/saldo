@@ -31,19 +31,26 @@
       overflow: hidden;
     }
     footer {
-      text-align: center;
+      text-align: left;
       margin-top: 2.5em;
-      padding: 1em 0;
+      padding: 1.5em 0 1em 0;
       background: #eee;
       border-radius: 8px;
-      font-size: 1.05em;
+      font-size: 1.08em;
       box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+      width: 100%;
+    }
+    footer nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.6em;
     }
     footer nav a {
       color: #2d5a90;
       text-decoration: none;
-      margin: 0 0.5em;
       transition: color 0.2s;
+      font-weight: 500;
     }
     footer nav a:hover {
       color: #0d375f;
@@ -53,6 +60,9 @@
       iframe {
         width: 100%;
         min-width: 0;
+      }
+      footer {
+        font-size: 1em;
       }
     }
   </style>
@@ -68,12 +78,12 @@
   </div>
   <footer>
     <nav>
-      <a href="https://blokhcikeasgardenia.github.io/rekap/">Rekap</a> |
-      <a href="https://blokhcikeasgardenia.github.io/dataipl/">Data IPL</a> |
-      <a href="https://blokhcikeasgardenia.github.io/dataair/">Data Air</a> |
-      <a href="https://blokhcikeasgardenia.github.io/dataaula/">Data Aula</a> |
-      <a href="https://blokhcikeasgardenia.github.io/datalainnya/">Data Lainnya</a> |
-      <a href="https://blokhcikeasgardenia.github.io/pemasukan/">Pemasukan</a> |
+      <a href="https://blokhcikeasgardenia.github.io/rekap/">Rekap</a>
+      <a href="https://blokhcikeasgardenia.github.io/dataipl/">Data IPL</a>
+      <a href="https://blokhcikeasgardenia.github.io/dataair/">Data Air</a>
+      <a href="https://blokhcikeasgardenia.github.io/dataaula/">Data Aula</a>
+      <a href="https://blokhcikeasgardenia.github.io/datalainnya/">Data Lainnya</a>
+      <a href="https://blokhcikeasgardenia.github.io/pemasukan/">Pemasukan</a>
       <a href="https://blokhcikeasgardenia.github.io/pengeluaran/">Pengeluaran</a>
     </nav>
   </footer>
