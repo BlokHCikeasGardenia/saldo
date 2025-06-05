@@ -31,19 +31,22 @@
       overflow: hidden;
     }
     footer {
-      text-align: left;
+      text-align: center;
       margin-top: 2.5em;
-      padding: 1.5em 0 1em 0;
-      background: #eee;
-      border-radius: 8px;
       font-size: 1.08em;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
-      width: 100%;
+      /* background, padding, border-radius dihilangkan agar ramping */
+      box-shadow: none;
+    }
+    .footer-text {
+      margin-bottom: 0.8em;
+      color: #444;
+      font-size: 1em;
+      font-style: italic;
     }
     footer nav {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: left;
       gap: 0.6em;
     }
     footer nav a {
@@ -77,6 +80,9 @@
     </iframe>
   </div>
   <footer>
+    <div class="footer-text">
+      Mau lihat data yang lain? klik link di bawah ini ya...
+    </div>
     <nav>
       <a href="https://blokhcikeasgardenia.github.io/rekap/">Rekap</a>
       <a href="https://blokhcikeasgardenia.github.io/dataipl/">Data IPL</a>
